@@ -9,7 +9,32 @@ import com.wecp.logisticsmanagementandtrackingsystem.repository.CustomerReposito
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+<<<<<<< HEAD
 
 public class CustomerService {
  // implement service logic here
 }
+=======
+@Service
+public class CustomerService {
+
+    @Autowired
+    private CargoRepository cargoRepository;
+
+    @Autowired
+    private CustomerRepository customerRepository;
+
+    public Customer createCustomer(Customer customer) {
+        return customerRepository.save(customer);
+    }
+
+    public CargoStatusResponse viewCargoStatus(Long cargoId) {
+        Cargo cargo = cargoRepository.findById(cargoId).orElse(null);
+        if (cargo != null) {
+            return new CargoStatusResponse(cargo.getId(), cargo.getStatus());
+        } else {
+            return null;
+        }
+    }
+}
+>>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

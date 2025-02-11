@@ -26,4 +26,8 @@ public class CargoStatusResponse {
     public void setStatus(String status) {
         this.status = status;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
