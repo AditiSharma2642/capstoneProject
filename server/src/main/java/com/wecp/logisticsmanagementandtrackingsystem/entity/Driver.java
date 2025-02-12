@@ -2,20 +2,11 @@ package com.wecp.logisticsmanagementandtrackingsystem.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-<<<<<<< HEAD
-=======
 import com.fasterxml.jackson.annotation.JsonIgnore;
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 
 import javax.persistence.*;
 import java.util.List;
 
-<<<<<<< HEAD
-
-public class Driver {
-     // implement entity here
-}
-=======
 @Entity
 public class Driver {
 
@@ -72,4 +63,3 @@ public class Driver {
 
 
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

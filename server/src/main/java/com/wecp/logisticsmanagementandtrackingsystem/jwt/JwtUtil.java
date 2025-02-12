@@ -14,12 +14,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-<<<<<<< HEAD
-
-public class JwtUtil {
-
-
-=======
 @Component
 public class JwtUtil {
 
@@ -87,5 +81,4 @@ public class JwtUtil {
         final String username = extractUsername(token);
         return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
     }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 }

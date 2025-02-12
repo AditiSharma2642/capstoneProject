@@ -4,11 +4,6 @@ import { Router } from '@angular/router';
 import { HttpService } from '../../services/http.service';
 import { AuthService } from '../../services/auth.service';
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -16,30 +11,6 @@ import { AuthService } from '../../services/auth.service';
 })
 export class LoginComponent implements OnInit {
   itemForm: FormGroup;
-<<<<<<< HEAD
-  formModel:any={};
-  showError:boolean=false;
-  errorMessage:any;
-  constructor(public router:Router, public httpService:HttpService, private formBuilder: FormBuilder, private authService:AuthService) 
-    {
-      this.itemForm = this.formBuilder.group({
-        //compelete this 
-       
-    });
-  }
-
-  ngOnInit(): void {
-  }
-  onLogin() {
-  //compelete this 
-}
-
-registration()
-  {
-     //compelete this 
-  }
-}
-=======
   formModel: any = {};
   showError: boolean = false;
   errorMessage: any;
@@ -82,4 +53,3 @@ registration()
     this.router.navigateByUrl('registration');
   }
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

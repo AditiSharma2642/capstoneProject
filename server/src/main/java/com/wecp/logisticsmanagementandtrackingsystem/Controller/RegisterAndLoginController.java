@@ -1,9 +1,4 @@
 package com.wecp.logisticsmanagementandtrackingsystem.Controller;
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import com.wecp.logisticsmanagementandtrackingsystem.dto.LoginRequest;
 import com.wecp.logisticsmanagementandtrackingsystem.dto.LoginResponse;
 import com.wecp.logisticsmanagementandtrackingsystem.entity.Business;
@@ -22,37 +17,13 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetails;
-<<<<<<< HEAD
-=======
 import org.springframework.web.bind.annotation.ExceptionHandler;
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-<<<<<<< HEAD
-public class RegisterAndLoginController {
-
-    @PostMapping("/api/register")
-    public ResponseEntity<?> registerUser(@RequestBody User user) {
-        // register user in user repository by user service
-        // after register in user repository then based on provided user role, register user in business, customer or driver repository
-        // return with registered user 200 OK
-
-    }
-
-    @PostMapping("/api/login")
-    public ResponseEntity<LoginResponse> loginUser(@RequestBody LoginRequest loginRequest) {
-        // implement login logic here
-        // return valid jwt token in loginResponse
-        // return 401 unauthorized if login failed
-    }
-
-
-}
-=======
 @RestController
 @RequestMapping("/api")
 public class RegisterAndLoginController {
@@ -117,4 +88,3 @@ public ResponseEntity<?> registerUser(@RequestBody User user) throws Exception {
     }
 
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

@@ -30,8 +30,4 @@ public class LoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

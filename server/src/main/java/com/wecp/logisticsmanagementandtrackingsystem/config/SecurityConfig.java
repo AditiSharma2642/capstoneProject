@@ -16,27 +16,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-<<<<<<< HEAD
-
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
-   
-
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        // complete these method to configure the security of the application
-
-        // /api/register and /api/login should be permitted to all
-        // /api/business/cargo should be permitted to users with BUSINESS role
-        // /api/business/assign-cargo should be permitted to users with BUSINESS role
-        // /api/driver/cargo should be permitted to users with DRIVER role
-        // /api/driver/update-cargo-status should be permitted to users with DRIVER role
-        // /api/customer/cargo-status should be permitted to users with CUSTOMER role
-        // all other requests should be authenticated
-
-        // configure jwtRequestFilter to be executed before UsernamePasswordAuthenticationFilter
-    }
-
-=======
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -85,5 +64,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
     }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 }

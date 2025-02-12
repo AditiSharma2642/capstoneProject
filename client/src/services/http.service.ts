@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -12,11 +9,6 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class HttpService {
-<<<<<<< HEAD
-  //todo: complete missing code..
-  
-}
-=======
   public serverName=environment.apiUrl;
   constructor(private http: HttpClient, private authService:AuthService) {
 
@@ -113,4 +105,3 @@ export class HttpService {
   
   
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

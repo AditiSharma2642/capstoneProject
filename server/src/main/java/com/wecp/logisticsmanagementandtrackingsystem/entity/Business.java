@@ -2,20 +2,11 @@ package com.wecp.logisticsmanagementandtrackingsystem.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-<<<<<<< HEAD
-=======
 import com.fasterxml.jackson.annotation.JsonIgnore;
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 
 import javax.persistence.*;
 import java.util.List;
 
-<<<<<<< HEAD
-
-public class Business {
-    // implement entity here
-}
-=======
 @Entity
 @Table(name="businesses")
 public class Business {
@@ -64,4 +55,3 @@ public class Business {
         this.cargos = cargos;
     }
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

@@ -4,23 +4,13 @@ import com.wecp.logisticsmanagementandtrackingsystem.entity.Cargo;
 import com.wecp.logisticsmanagementandtrackingsystem.entity.Driver;
 import com.wecp.logisticsmanagementandtrackingsystem.repository.CargoRepository;
 import com.wecp.logisticsmanagementandtrackingsystem.repository.DriverRepository;
-<<<<<<< HEAD
-=======
 
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
-<<<<<<< HEAD
-
-public class DriverService {
- // implement service logic here
-
-}
-=======
 @Service
 public class DriverService {
 
@@ -57,4 +47,3 @@ public class DriverService {
     }
 
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

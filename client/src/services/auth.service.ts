@@ -1,16 +1,10 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-<<<<<<< HEAD
-//todo: complete missing code..
-=======
 
 
   private token: string | null = null;
@@ -65,5 +59,4 @@ export class AuthService {
      this.token=null;
      this.isLoggedIn=false
    }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 }

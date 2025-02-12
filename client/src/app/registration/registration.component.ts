@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-<<<<<<< HEAD
-=======
 import { AuthService } from '../../services/auth.service';
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
 import { HttpService } from '../../services/http.service';
 
 
@@ -13,13 +10,6 @@ import { HttpService } from '../../services/http.service';
   templateUrl: './registration.component.html',
   styleUrls: ['./registration.component.scss']
 })
-<<<<<<< HEAD
-export class RegistrationComponent {
-
- //todo: complete missing code..
-
-}
-=======
 export class RegistrationComponent implements OnInit{
 itemForm!: FormGroup;
   formModel: any = { role: '', email: '', password: '', username: '' };
@@ -63,4 +53,3 @@ itemForm!: FormGroup;
      }
   }
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

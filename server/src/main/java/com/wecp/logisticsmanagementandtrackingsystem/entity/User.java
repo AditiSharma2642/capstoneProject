@@ -3,13 +3,6 @@ package com.wecp.logisticsmanagementandtrackingsystem.entity;
 
 import javax.persistence.*;
 
-<<<<<<< HEAD
-
-public class User {
-    // implement entity here
-}
-
-=======
 @Entity
 @Table(name="users")
 public class User {
@@ -63,4 +56,3 @@ public class User {
         this.email = email;
     }
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

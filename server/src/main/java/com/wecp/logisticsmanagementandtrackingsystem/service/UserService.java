@@ -12,13 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
-<<<<<<< HEAD
-
-public class UserService  {
- // implement service logic here
-
-}
-=======
 @Service
 public class UserService implements UserDetailsService {
 
@@ -55,4 +48,3 @@ public class UserService implements UserDetailsService {
         );
     }
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46

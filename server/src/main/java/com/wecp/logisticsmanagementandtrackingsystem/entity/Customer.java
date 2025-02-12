@@ -1,13 +1,6 @@
 package com.wecp.logisticsmanagementandtrackingsystem.entity;
 
 import javax.persistence.*;
-<<<<<<< HEAD
-
-public class Customer {
-    
- // implement entity here
-}
-=======
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.List;
 
@@ -45,4 +38,3 @@ public class Customer {
     }
 
 }
->>>>>>> 1b4d1814d850f0219a666c7d9f66690b21047e46
